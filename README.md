@@ -6,4 +6,4 @@
 #I think I could some how use eval an an additional loop to create a way to exit and this seems more natural. I dont want to make that right now so for now there is now ay to exit.
 #for now vish depends on edtrnlp
 
-vish(){ edtrnlp vi /bin/sh "$1" }
+vish(){ edtrnlp vi sh "$1" ; } ;
